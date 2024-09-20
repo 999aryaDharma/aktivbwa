@@ -10,7 +10,7 @@ Route::get('/browse/{category:slug}', [FrontController::class, 'category'])->nam
 
 Route::get('/details/{workshop:slug}', [FrontController::class, 'details'])->name('front.details');
 
-Route::get('/check-booking', [BookingController::class, 'checkBooking'])->name('front.checkBooking');
+Route::get('/check-booking', [BookingController::class, 'checkBooking'])->name('front.check_booking');
 Route::post('/check-booking/details', [BookingController::class, 'checkBookingDetails'])->name('front.check_booking_details');
 
 Route::get('/booking/payment', [BookingController::class, 'payment'])->name('front.payment');

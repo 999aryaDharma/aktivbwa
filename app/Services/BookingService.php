@@ -2,6 +2,7 @@
 
 namespace App\Services;
 
+use App\Services\BookingService;
 use Exception;
 use App\Models\BookingTransaction;
 use Illuminate\Support\Facades\DB;

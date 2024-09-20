@@ -4,5 +4,5 @@ namespace App\Repositories\Contracts;
 
 interface CategoryRepositoryInterface
 {
-  public function getAllCategory();
+  public function getAllCategories();
 }

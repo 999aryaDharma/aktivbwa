@@ -19,7 +19,7 @@ class FrontService
   public function getFrontPageData()
   {
     $categories = $this->categoryRepository->getAllCategories();
-    $newWorkshop = $this->workshopRepository->getAllNewWorkshop();
-    return compact('categories', 'newWorkshop');
+    $newWorkshops = $this->workshopRepository->getAllNewWorkshop();
+    return compact('categories', 'newWorkshops');
   }
 }

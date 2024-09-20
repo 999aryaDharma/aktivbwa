@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Category;
 use App\Models\Workshop;
 use Illuminate\Http\Request;
+use App\Services\FrontService;
+use App\Services\BookingService;
 
 class FrontController extends Controller
 {

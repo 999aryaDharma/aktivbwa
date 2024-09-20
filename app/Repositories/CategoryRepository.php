@@ -7,7 +7,7 @@ use App\Repositories\Contracts\CategoryRepositoryInterface;
 
 class CategoryRepository implements CategoryRepositoryInterface
 {
-  public function getAllCategory()
+  public function getAllCategories()
   {
     return Category::latest()->get();
   }
